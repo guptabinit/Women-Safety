@@ -26,7 +26,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                android:src="@drawable/ic_women_user" />
+                android:src="@drawable/ic_user_male" />
 
             <Space
                 android:layout_width="24dp"
