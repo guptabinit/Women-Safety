@@ -253,7 +253,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat"
-                        android:text="Report the police about mishapping"
+                        android:text="Report the police about mishapping (through mail)"
                         android:textColor="@color/black"
                         android:layout_gravity="center_vertical"
                         android:textSize="14sp"/>
@@ -265,7 +265,7 @@
                     android:layout_height="18dp"/>
 
                 <LinearLayout
-                    android:id="@+id/report_fir_btn"
+                    android:id="@+id/useful_link_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -278,7 +278,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/ic_add"/>
+                        android:src="@drawable/ic_link"/>
 
                     <Space
                         android:layout_width="14dp"
@@ -288,7 +288,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat"
-                        android:text="File a FIR (First Information Report)"
+                        android:text="Useful Links and Numbers"
                         android:textColor="@color/black"
                         android:layout_gravity="center_vertical"
                         android:textSize="14sp"/>
@@ -306,14 +306,18 @@
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/call_police_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/montserrat"
         android:text="Call Police"
         android:textColor="@color/black"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_margin="24dp"
-        android:textStyle="bold"
-        android:fontFamily="@font/montserrat" />
+        android:textStyle="bold" />
 
 </RelativeLayout>
