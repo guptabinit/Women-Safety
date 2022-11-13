@@ -3,21 +3,15 @@ package com.binitgupta.womensafety
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_login.*
+import kotlinx.android.synthetic.main.activity_one_time_info.*
 
-class LoginActivity : AppCompatActivity() {
+class OneTimeInfoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_one_time_info)
 
-        login_button.setOnClickListener {
+        next_button.setOnClickListener{
             val intent = Intent(this, BodyActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
-
-        create_acc_btn.setOnClickListener{
-            val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
             finish()
         }

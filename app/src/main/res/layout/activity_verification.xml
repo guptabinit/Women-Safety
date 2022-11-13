@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".VerificationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="44dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Enter Verification\nCode"
+            android:textColor="@color/deep_blue"
+            android:textSize="32sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="36dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/illust_otp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="44dp"/>
+
+        <EditText
+            android:id="@+id/etNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter verification code"
+            android:textAlignment="center"
+            android:background="@drawable/et_shape"
+            android:padding="16dp"
+            android:inputType="number"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp"/>
+
+        <TextView
+            android:id="@+id/resend_otp_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Didn't received code? Resend Code"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="28dp"/>
+
+        <TextView
+            android:id="@+id/verify_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Verify"
+            android:padding="14dp"
+            android:elevation="4dp"
+            android:layout_marginHorizontal="16dp"
+            android:background="@drawable/button_grad_shape"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
