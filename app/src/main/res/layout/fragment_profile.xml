@@ -105,11 +105,11 @@
                             android:id="@+id/et_about_you"
                             android:layout_width="match_parent"
                             android:layout_height="100dp"
-                            android:padding="16dp"
-                            android:hint="About yourself"
-                            android:textSize="14sp"
+                            android:background="@color/grey_box"
                             android:fontFamily="@font/montserrat"
-                            android:background="@color/grey_box" />
+                            android:hint="About yourself"
+                            android:padding="16dp"
+                            android:textSize="14sp" />
 
                         <ImageView
                             android:id="@+id/update_about_btn"
