@@ -25,13 +25,11 @@ class HomeFragment : Fragment() {
         helpline_btn.setOnClickListener{
             val intent = Intent(activity, HelplineNumberActivity::class.java)
             activity?.startActivity(intent)
-            activity?.finish()
         }
 
         helpline_call_btn.setOnClickListener{
             val intent = Intent(activity, HelplineNumberActivity::class.java)
             activity?.startActivity(intent)
-            activity?.finish()
         }
 
     }
